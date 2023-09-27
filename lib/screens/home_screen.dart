@@ -67,10 +67,10 @@ class HomeScreen extends StatelessWidget {
               SizedBox(
                 width: MediaQuery.of(context).size.width,
                 height: MediaQuery.of(context).size.height,
-                child: const Column(
+                child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(
+                    const Text(
                       'Manisa',
                       style: TextStyle(
                         fontWeight: FontWeight.w300,
@@ -78,7 +78,7 @@ class HomeScreen extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(height: 8),
-                    Text(
+                    const Text(
                       'Good Morning',
                       style: TextStyle(
                         color: Colors.white,
@@ -86,6 +86,7 @@ class HomeScreen extends StatelessWidget {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
+                    Image.asset('assets/1.png'),
                   ],
                 ),
               ),
